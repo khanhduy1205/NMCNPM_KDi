@@ -3,11 +3,13 @@
 }
 .signup-content {
     @extend display-flex;
+    background-color: #FCECD3;
+
     padding: 75px 0;
     // flex-flow: wrap;
 }
 .signup-form, .signup-image, .signin-form, .signin-image{
-    width: 50%;
+    width: 100%;
     overflow: hidden;
 }
 .signup-image {
